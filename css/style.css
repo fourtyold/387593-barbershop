@@ -4,6 +4,7 @@ body {
   color: black;
   font-weight: normal;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+  margin: 0;
 }
 
 .index-title h1 {
@@ -28,4 +29,136 @@ body {
   color: black;
   font-weight: bold;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  outline: green solid 3px;
+  margin-bottom: 59px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: red solid 3px;
+}
+
+.header-logo {
+  width: 150px;
+  min-height: 73px;
+  margin-right: 10px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.main-navigation {
+  width: 665px;
+  min-height: 73px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.user-block {
+  width: 100px;
+  min-height: 73px;
+  float: right;
+  outline: yellow solid 3px;
+}
+
+.navigation {
+  width: 630px;
+  outline: green solid 3px;
+  margin-bottom: 60px;
+}
+
+.index-title {
+  width: 600px;
+  min-height: 30px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.breadcrumbs {
+  width: 630px;
+  min-height: 14px;
+  margin-top: 20px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.index-content {
+  outline: green solid 3px;
+}
+
+.filters {
+  width: 220px;
+  min-height: 575px;
+  float: left;
+  outline: yellow solid 3px;
+  margin-right: 10px;
+}
+
+.catalog-items {
+  width: 710px;
+  min-height: 600px;
+  float: left;
+  margin-bottom: 45px;
+  outline: yellow solid 3px;
+}
+
+.foto {
+  width: 460px;
+  min-height:668px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.description {
+  width: 390px;
+  min-height: 529px;
+  float: right;
+  outline: yellow solid 3px;
+}
+
+.pages-nav {
+  width: 193px;
+  min-height: 40px;
+  float: left;
+  margin-left: 240px;
+  outline: yellow solid 3px;
+}
+
+.main-footer {
+  outline: green solid 3px;
+  margin-top: 49px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contact {
+  width: 320px;
+  min-height: 90px;
+  float: left;
+  margin-right: 60px;
+  outline: yellow solid 3px;
+}
+
+.footer-social {
+  width: 180px;
+  min-height: 90px;
+  float: left;
+  outline: yellow solid 3px;
+}
+
+.footer-copyright {
+  width: 180px;
+  min-height: 90px;
+  float: right;
+  outline: yellow solid 3px;
 }
