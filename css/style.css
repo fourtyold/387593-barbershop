@@ -78,17 +78,13 @@ body {
 }
 
 .index-title {
-  width: 600px;
   min-height: 30px;
-  float: left;
   outline: yellow solid 3px;
 }
 
 .breadcrumbs {
-  width: 630px;
   min-height: 14px;
   margin-top: 20px;
-  float: left;
   outline: yellow solid 3px;
 }
 
